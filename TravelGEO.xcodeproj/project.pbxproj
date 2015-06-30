@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		191842DE1B4330820051C323 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191842DD1B4330820051C323 /* AppDelegate.swift */; };
+		191842E01B4330820051C323 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191842DF1B4330820051C323 /* ViewController.swift */; };
+		191842E31B4330820051C323 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191842E11B4330820051C323 /* Main.storyboard */; };
+		191842E51B4330820051C323 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 191842E41B4330820051C323 /* Images.xcassets */; };
+		191842E81B4330820051C323 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 191842E61B4330820051C323 /* LaunchScreen.xib */; };
+		191842F41B4330820051C323 /* TravelGEOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191842F31B4330820051C323 /* TravelGEOTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		191842EE1B4330820051C323 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 191842D01B4330810051C323 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 191842D71B4330810051C323;
+			remoteInfo = TravelGEO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		191842D81B4330820051C323 /* TravelGEO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelGEO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		191842DC1B4330820051C323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		191842DD1B4330820051C323 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		191842DF1B4330820051C323 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		191842E21B4330820051C323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		191842E41B4330820051C323 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		191842E71B4330820051C323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		191842ED1B4330820051C323 /* TravelGEOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelGEOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		191842F21B4330820051C323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		191842F31B4330820051C323 /* TravelGEOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelGEOTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		191842D51B4330810051C323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		191842EA1B4330820051C323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		191842CF1B4330810051C323 = {
+			isa = PBXGroup;
+			children = (
+				191842DA1B4330820051C323 /* TravelGEO */,
+				191842F01B4330820051C323 /* TravelGEOTests */,
+				191842D91B4330820051C323 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		191842D91B4330820051C323 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				191842D81B4330820051C323 /* TravelGEO.app */,
+				191842ED1B4330820051C323 /* TravelGEOTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		191842DA1B4330820051C323 /* TravelGEO */ = {
+			isa = PBXGroup;
+			children = (
+				191842DD1B4330820051C323 /* AppDelegate.swift */,
+				191842DF1B4330820051C323 /* ViewController.swift */,
+				191842E11B4330820051C323 /* Main.storyboard */,
+				191842E41B4330820051C323 /* Images.xcassets */,
+				191842E61B4330820051C323 /* LaunchScreen.xib */,
+				191842DB1B4330820051C323 /* Supporting Files */,
+			);
+			path = TravelGEO;
+			sourceTree = "<group>";
+		};
+		191842DB1B4330820051C323 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				191842DC1B4330820051C323 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		191842F01B4330820051C323 /* TravelGEOTests */ = {
+			isa = PBXGroup;
+			children = (
+				191842F31B4330820051C323 /* TravelGEOTests.swift */,
+				191842F11B4330820051C323 /* Supporting Files */,
+			);
+			path = TravelGEOTests;
+			sourceTree = "<group>";
+		};
+		191842F11B4330820051C323 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				191842F21B4330820051C323 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		191842D71B4330810051C323 /* TravelGEO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 191842F71B4330820051C323 /* Build configuration list for PBXNativeTarget "TravelGEO" */;
+			buildPhases = (
+				191842D41B4330810051C323 /* Sources */,
+				191842D51B4330810051C323 /* Frameworks */,
+				191842D61B4330810051C323 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelGEO;
+			productName = TravelGEO;
+			productReference = 191842D81B4330820051C323 /* TravelGEO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		191842EC1B4330820051C323 /* TravelGEOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 191842FA1B4330820051C323 /* Build configuration list for PBXNativeTarget "TravelGEOTests" */;
+			buildPhases = (
+				191842E91B4330820051C323 /* Sources */,
+				191842EA1B4330820051C323 /* Frameworks */,
+				191842EB1B4330820051C323 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				191842EF1B4330820051C323 /* PBXTargetDependency */,
+			);
+			name = TravelGEOTests;
+			productName = TravelGEOTests;
+			productReference = 191842ED1B4330820051C323 /* TravelGEOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		191842D01B4330810051C323 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Ankush;
+				TargetAttributes = {
+					191842D71B4330810051C323 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					191842EC1B4330820051C323 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 191842D71B4330810051C323;
+					};
+				};
+			};
+			buildConfigurationList = 191842D31B4330810051C323 /* Build configuration list for PBXProject "TravelGEO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 191842CF1B4330810051C323;
+			productRefGroup = 191842D91B4330820051C323 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				191842D71B4330810051C323 /* TravelGEO */,
+				191842EC1B4330820051C323 /* TravelGEOTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		191842D61B4330810051C323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191842E31B4330820051C323 /* Main.storyboard in Resources */,
+				191842E81B4330820051C323 /* LaunchScreen.xib in Resources */,
+				191842E51B4330820051C323 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		191842EB1B4330820051C323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		191842D41B4330810051C323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191842E01B4330820051C323 /* ViewController.swift in Sources */,
+				191842DE1B4330820051C323 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		191842E91B4330820051C323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191842F41B4330820051C323 /* TravelGEOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		191842EF1B4330820051C323 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 191842D71B4330810051C323 /* TravelGEO */;
+			targetProxy = 191842EE1B4330820051C323 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		191842E11B4330820051C323 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				191842E21B4330820051C323 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		191842E61B4330820051C323 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				191842E71B4330820051C323 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		191842F51B4330820051C323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		191842F61B4330820051C323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		191842F81B4330820051C323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TravelGEO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		191842F91B4330820051C323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TravelGEO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		191842FB1B4330820051C323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TravelGEOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelGEO.app/TravelGEO";
+			};
+			name = Debug;
+		};
+		191842FC1B4330820051C323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TravelGEOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelGEO.app/TravelGEO";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		191842D31B4330810051C323 /* Build configuration list for PBXProject "TravelGEO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				191842F51B4330820051C323 /* Debug */,
+				191842F61B4330820051C323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		191842F71B4330820051C323 /* Build configuration list for PBXNativeTarget "TravelGEO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				191842F81B4330820051C323 /* Debug */,
+				191842F91B4330820051C323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		191842FA1B4330820051C323 /* Build configuration list for PBXNativeTarget "TravelGEOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				191842FB1B4330820051C323 /* Debug */,
+				191842FC1B4330820051C323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 191842D01B4330810051C323 /* Project object */;
+}
