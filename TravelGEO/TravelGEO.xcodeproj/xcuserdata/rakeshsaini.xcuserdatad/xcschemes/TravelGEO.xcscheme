@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "191842D71B4330810051C323"
+               BlueprintIdentifier = "191843051B4336030051C323"
                BuildableName = "TravelGEO.app"
                BlueprintName = "TravelGEO"
                ReferencedContainer = "container:TravelGEO.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "191842EC1B4330820051C323"
+               BlueprintIdentifier = "1918431A1B4336040051C323"
                BuildableName = "TravelGEOTests.xctest"
                BlueprintName = "TravelGEOTests"
                ReferencedContainer = "container:TravelGEO.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "191842EC1B4330820051C323"
+               BlueprintIdentifier = "1918431A1B4336040051C323"
                BuildableName = "TravelGEOTests.xctest"
                BlueprintName = "TravelGEOTests"
                ReferencedContainer = "container:TravelGEO.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "191842D71B4330810051C323"
+            BlueprintIdentifier = "191843051B4336030051C323"
             BuildableName = "TravelGEO.app"
             BlueprintName = "TravelGEO"
             ReferencedContainer = "container:TravelGEO.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "191842D71B4330810051C323"
+            BlueprintIdentifier = "191843051B4336030051C323"
             BuildableName = "TravelGEO.app"
             BlueprintName = "TravelGEO"
             ReferencedContainer = "container:TravelGEO.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "191842D71B4330810051C323"
+            BlueprintIdentifier = "191843051B4336030051C323"
             BuildableName = "TravelGEO.app"
             BlueprintName = "TravelGEO"
             ReferencedContainer = "container:TravelGEO.xcodeproj">
